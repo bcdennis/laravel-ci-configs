@@ -1,0 +1,25 @@
+actor: Tester
+paths:
+    tests: tests
+    log: tests/_output
+    data: tests/_data
+    helpers: tests/_support
+settings:
+    bootstrap: _bootstrap.php
+    colors: true
+    memory_limit: 1024M
+coverage:
+    enabled: true
+    remote: true
+    whitelist:
+        include:
+            - app/*
+modules:
+    enabled:
+        - PhpBrowser
+        - WebHelper
+        - Laravel5
+        - Mockery
+    config:
+        PhpBrowser:
+            url: 'http://homestead.local'

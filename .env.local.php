@@ -1,0 +1,12 @@
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=<<key>>
+
+DB_HOST=localhost
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+DB_PORT=33060
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file

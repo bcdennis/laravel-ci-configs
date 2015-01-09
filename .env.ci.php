@@ -1,0 +1,13 @@
+APP_ENV=ci
+APP_DEBUG=false
+APP_KEY=<<key>>
+
+DB_HOST=localhost
+DB_DATABASE=<<database>>
+DB_USERNAME=root
+DB_PASSWORD=
+DB_PORT=3306
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
